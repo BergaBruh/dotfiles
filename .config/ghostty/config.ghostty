@@ -1,0 +1,18 @@
+theme = noctalia
+# background-opacity = 0.93
+# window-theme = dark
+
+shell-integration-features=ssh-env
+language = ru
+
+async-backend = auto
+progress-style = true
+desktop-notifications = true
+bell-features = system
+copy-on-select = true
+clipboard-write = ask
+
+font-family = JetBrains Mono NL
+
+custom-shader = shaders/cursor_tail.glsl
+
