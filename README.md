@@ -31,6 +31,7 @@ This repo includes configs under `.config`, `.local` and `.var`, so don't use
 ### What's inside
 
 - Niri config and Noctalia settings.
+- Noctalia GUI preferences, theme selection, panel layout and enabled plugins.
 - Ghostty theme, shader and soft background transparency.
 - Fish and btop configs.
 - Zen Browser Material-style userChrome template.
@@ -47,5 +48,6 @@ binary at `~/.local/lib/noctalia/noctalia` and its assets at
 If you use the normal package version, change the absolute Noctalia paths in
 `.config/niri/config.kdl` to just `noctalia`.
 
-Runtime data, browser profiles, Telegram accounts, notification history and
-other secret/private stuff are intentionally not included here.
+Runtime histories, browser profiles, Telegram accounts, notification history,
+clipboard data and other secret/private stuff are intentionally not included
+here.
