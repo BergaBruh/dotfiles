@@ -1,5 +1,5 @@
-theme = noctalia
-# background-opacity = 0.93
+background-opacity = 0.86
+background-opacity-cells = true
 # window-theme = dark
 
 shell-integration-features=ssh-env
@@ -16,3 +16,4 @@ font-family = JetBrains Mono NL
 
 custom-shader = shaders/cursor_tail.glsl
 
+theme = noctalia

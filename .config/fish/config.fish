@@ -42,3 +42,8 @@ set -gx PATH "/home/bergamot/.local/bin" $PATH
 fish_add_path -g /home/bergamot/yandex-cloud/bin
 
 fish_add_path /home/bergamot/.spicetify
+
+fish_add_path /home/bergamot/.local/bin
+
+fnm env --use-on-cd | source
+fish_add_path ~/.local/share/fnm

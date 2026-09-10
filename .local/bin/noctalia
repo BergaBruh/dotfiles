@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+exec env \
+    NOCTALIA_ASSETS_DIR="/home/bergamot/.local/share/noctalia/assets" \
+    LD_LIBRARY_PATH="/home/bergamot/.local/lib/noctalia${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" \
+    /home/bergamot/.local/lib/noctalia/noctalia "$@"

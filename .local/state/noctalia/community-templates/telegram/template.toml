@@ -1,0 +1,11 @@
+[catalog.telegram]
+name = "Telegram"
+category = "chat"
+
+[templates.telegram]
+input_path = "telegram.tdesktop-theme"
+# Telegram is installed as Flatpak on this machine, so keep the generated
+# theme inside its sandbox-visible persistent data directory.
+output_path = "$HOME/.var/app/org.telegram.desktop/data/TelegramDesktop/noctalia.tdesktop-theme"
+post_hook = "bash '{{ config_dir }}/apply.sh'"
+hook_async = false

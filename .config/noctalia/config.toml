@@ -5,3 +5,25 @@ path = "/home/bergamot/Wallpapers/Teto Reference.jpg"
 enabled        = false
 blur_intensity = 0.5    # 0.0 = no blur, 1.0 = maximum blur
 tint_intensity = 0.3    # 0.0 = no tint, 1.0 = fully opaque tint
+
+[desktop_widgets]
+enabled = true
+widget_order = ["audio_center"]
+
+[desktop_widgets.widget.audio_center]
+type = "audio_visualizer"
+output = "eDP-1"
+cx = 960.0
+cy = 600.0
+box_width = 600.0
+box_height = 120.0
+rotation = 0.0
+
+[desktop_widgets.widget.audio_center.settings]
+background = false
+bands = 32
+mirrored = true
+centered = true
+show_when_idle = false
+color_1 = "primary"
+color_2 = "secondary"
