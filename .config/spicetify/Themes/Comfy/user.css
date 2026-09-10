@@ -1,0 +1,21 @@
+/* Noctalia Material 3 surface treatment without Comfy's legacy layout hacks. */
+:root {
+	--m3-radius-small: 8px;
+	--m3-radius-medium: 12px;
+	--m3-radius-full: 9999px;
+}
+
+.main-card-card,
+[data-encore-id="card"] {
+	border-radius: var(--m3-radius-medium) !important;
+}
+
+[data-encore-id="buttonSecondary"],
+[data-encore-id="buttonPrimary"],
+[data-encore-id="buttonTertiary"] {
+	border-radius: var(--m3-radius-full) !important;
+}
+
+.main-trackList-trackListRow {
+	border-radius: var(--m3-radius-small) !important;
+}
